@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +21,113 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkE-zi-clZ">
+                                <rect key="frame" x="0.0" y="592" width="375" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you haven't signed in before, an account will be automatically created for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBc-p9-ege">
+                                        <rect key="frame" x="8" y="8" width="359" height="59"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.396078431372549" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="EBc-p9-ege" firstAttribute="leading" secondItem="MkE-zi-clZ" secondAttribute="leading" constant="8" id="1uw-OK-xX4"/>
+                                    <constraint firstItem="EBc-p9-ege" firstAttribute="top" secondItem="MkE-zi-clZ" secondAttribute="top" constant="8" id="PDz-vW-khQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="EBc-p9-ege" secondAttribute="trailing" constant="8" id="SkT-Rd-3aB"/>
+                                    <constraint firstAttribute="bottom" secondItem="EBc-p9-ege" secondAttribute="bottom" constant="8" id="bw9-TW-qdo"/>
+                                    <constraint firstAttribute="height" constant="75" id="wc0-iW-cbx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mju-7m-6X3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ge-hw-caf">
+                                        <rect key="frame" x="67" y="10" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="Z1j-Gj-puj"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OHc-5z-rZz">
+                                <rect key="frame" x="46" y="404" width="283" height="125"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HdC-HT-ofw">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="125"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EEA-bq-u4U">
+                                                <rect key="frame" x="0.0" y="0.0" width="283" height="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y8z-Wz-QAh">
+                                                <rect key="frame" x="0.0" y="45" width="283" height="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHW-dP-Ftf">
+                                                <rect key="frame" x="0.0" y="90" width="283" height="35"/>
+                                                <color key="backgroundColor" red="0.47058823529411764" green="0.56470588235294117" blue="0.61176470588235299" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                                <state key="normal" title="Sign In">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q12-wJ-RbI">
+                                <rect key="frame" x="112.5" y="229" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.25490196078431371" green="0.36078431372549019" blue="0.64313725490196072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="0Vo-GW-tik"/>
+                                    <constraint firstAttribute="height" constant="150" id="kfc-nT-1o0"/>
+                                </constraints>
+                                <state key="normal" image="f"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select a sign in method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwz-NB-dox">
+                                <rect key="frame" x="16" y="177" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rot-Sf-H5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87443814212328763" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mju-7m-6X3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0zv-1U-MgG"/>
+                            <constraint firstItem="zwz-NB-dox" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3uo-8q-aqi"/>
+                            <constraint firstItem="zwz-NB-dox" firstAttribute="top" secondItem="mju-7m-6X3" secondAttribute="bottom" constant="20" id="6YA-aa-wVg"/>
+                            <constraint firstItem="Q12-wJ-RbI" firstAttribute="top" secondItem="zwz-NB-dox" secondAttribute="bottom" constant="40" id="B4m-4l-ajq"/>
+                            <constraint firstAttribute="trailing" secondItem="MkE-zi-clZ" secondAttribute="trailing" id="IAT-Id-oNs"/>
+                            <constraint firstItem="OHc-5z-rZz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Qse-Qn-Oda"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MkE-zi-clZ" secondAttribute="bottom" id="X6M-5G-2qC"/>
+                            <constraint firstItem="OHc-5z-rZz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYx-iY-0ux"/>
+                            <constraint firstItem="mju-7m-6X3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bsH-Tm-XIQ"/>
+                            <constraint firstItem="MkE-zi-clZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f9f-Vj-QMo"/>
+                            <constraint firstAttribute="trailing" secondItem="mju-7m-6X3" secondAttribute="trailing" id="gcx-ox-vg3"/>
+                            <constraint firstItem="zwz-NB-dox" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hUl-Ir-ySC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OHc-5z-rZz" secondAttribute="trailing" constant="30" id="rER-Lr-o1G"/>
+                            <constraint firstItem="Q12-wJ-RbI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ta5-uh-PAg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="122.78860569715144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="f" width="352" height="328"/>
+    </resources>
 </document>
