@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0F53ECC376AE32E793F611 /* Pods_kayf_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2924CE539270457E7DA5F1E /* Pods_kayf_social.framework */; };
 		877A7B631EB44F6F0049FC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A7B621EB44F6F0049FC45 /* AppDelegate.swift */; };
-		877A7B651EB44F6F0049FC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A7B641EB44F6F0049FC45 /* ViewController.swift */; };
+		877A7B651EB44F6F0049FC45 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A7B641EB44F6F0049FC45 /* SignInVC.swift */; };
 		877A7B681EB44F6F0049FC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A7B661EB44F6F0049FC45 /* Main.storyboard */; };
 		877A7B6A1EB44F700049FC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877A7B691EB44F700049FC45 /* Assets.xcassets */; };
 		877A7B6D1EB44F700049FC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A7B6B1EB44F700049FC45 /* LaunchScreen.storyboard */; };
 		877A7B781EB44F790049FC45 /* kayf_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A7B771EB44F790049FC45 /* kayf_socialTests.swift */; };
 		877A7B831EB44F790049FC45 /* kayf_socialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A7B821EB44F790049FC45 /* kayf_socialUITests.swift */; };
+		877A7B931EB45E7B0049FC45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877A7B921EB45E7B0049FC45 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		547DCD5B1D7F37B97644B116 /* Pods-kayf-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kayf-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kayf-social/Pods-kayf-social.debug.xcconfig"; sourceTree = "<group>"; };
+		82C026EAC14EF0E070CC694A /* Pods-kayf-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kayf-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-kayf-social/Pods-kayf-social.release.xcconfig"; sourceTree = "<group>"; };
 		877A7B5F1EB44F6E0049FC45 /* kayf-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kayf-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877A7B621EB44F6F0049FC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877A7B641EB44F6F0049FC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877A7B641EB44F6F0049FC45 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		877A7B671EB44F6F0049FC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877A7B691EB44F700049FC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877A7B6C1EB44F700049FC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		877A7B7E1EB44F790049FC45 /* kayf-socialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kayf-socialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877A7B821EB44F790049FC45 /* kayf_socialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kayf_socialUITests.swift; sourceTree = "<group>"; };
 		877A7B841EB44F790049FC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877A7B921EB45E7B0049FC45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2924CE539270457E7DA5F1E /* Pods_kayf_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kayf_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0F53ECC376AE32E793F611 /* Pods_kayf_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9B4E1AF65D4F37CC8DD4E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				547DCD5B1D7F37B97644B116 /* Pods-kayf-social.debug.xcconfig */,
+				82C026EAC14EF0E070CC694A /* Pods-kayf-social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B2AB4A2DE5A5FA62DD25B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2924CE539270457E7DA5F1E /* Pods_kayf_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		872E44651EB464240037630B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		872E44661EB464410037630B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		872E44671EB464470037630B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				877A7B641EB44F6F0049FC45 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		877A7B561EB44F6D0049FC45 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				877A7B761EB44F790049FC45 /* kayf-socialTests */,
 				877A7B811EB44F790049FC45 /* kayf-socialUITests */,
 				877A7B601EB44F6E0049FC45 /* Products */,
+				1F9B4E1AF65D4F37CC8DD4E4 /* Pods */,
+				7B2AB4A2DE5A5FA62DD25B45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,15 @@
 		877A7B611EB44F6E0049FC45 /* kayf-social */ = {
 			isa = PBXGroup;
 			children = (
+				872E44651EB464240037630B /* Model */,
+				872E44671EB464470037630B /* Controller */,
+				872E44661EB464410037630B /* View */,
 				877A7B621EB44F6F0049FC45 /* AppDelegate.swift */,
-				877A7B641EB44F6F0049FC45 /* ViewController.swift */,
 				877A7B661EB44F6F0049FC45 /* Main.storyboard */,
 				877A7B691EB44F700049FC45 /* Assets.xcassets */,
 				877A7B6B1EB44F700049FC45 /* LaunchScreen.storyboard */,
 				877A7B6E1EB44F710049FC45 /* Info.plist */,
+				877A7B921EB45E7B0049FC45 /* GoogleService-Info.plist */,
 			);
 			path = "kayf-social";
 			sourceTree = "<group>";
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 877A7B871EB44F790049FC45 /* Build configuration list for PBXNativeTarget "kayf-social" */;
 			buildPhases = (
+				88DACDCB02F65938E8386ED7 /* [CP] Check Pods Manifest.lock */,
 				877A7B5B1EB44F6E0049FC45 /* Sources */,
 				877A7B5C1EB44F6E0049FC45 /* Frameworks */,
 				877A7B5D1EB44F6E0049FC45 /* Resources */,
+				7CE7DAA8104839A42A6A342C /* [CP] Embed Pods Frameworks */,
+				7413042C172C9A8A4587FBDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				877A7B6D1EB44F700049FC45 /* LaunchScreen.storyboard in Resources */,
+				877A7B931EB45E7B0049FC45 /* GoogleService-Info.plist in Resources */,
 				877A7B6A1EB44F700049FC45 /* Assets.xcassets in Resources */,
 				877A7B681EB44F6F0049FC45 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +312,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7413042C172C9A8A4587FBDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kayf-social/Pods-kayf-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE7DAA8104839A42A6A342C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kayf-social/Pods-kayf-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DACDCB02F65938E8386ED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		877A7B5B1EB44F6E0049FC45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877A7B651EB44F6F0049FC45 /* ViewController.swift in Sources */,
+				877A7B651EB44F6F0049FC45 /* SignInVC.swift in Sources */,
 				877A7B631EB44F6F0049FC45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,12 +518,13 @@
 		};
 		877A7B881EB44F790049FC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547DCD5B1D7F37B97644B116 /* Pods-kayf-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJAEJMLZSM;
 				INFOPLIST_FILE = "kayf-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ap-.kayf-social";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayf.ap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,12 +532,13 @@
 		};
 		877A7B891EB44F790049FC45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C026EAC14EF0E070CC694A /* Pods-kayf-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJAEJMLZSM;
 				INFOPLIST_FILE = "kayf-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ap-.kayf-social";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kayf.ap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +621,7 @@
 				877A7B891EB44F790049FC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		877A7B8A1EB44F790049FC45 /* Build configuration list for PBXNativeTarget "kayf-socialTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +630,7 @@
 				877A7B8C1EB44F790049FC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		877A7B8D1EB44F790049FC45 /* Build configuration list for PBXNativeTarget "kayf-socialUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +639,7 @@
 				877A7B8F1EB44F790049FC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
